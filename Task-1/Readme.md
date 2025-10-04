@@ -56,9 +56,9 @@ They serve as the backbone of modern embedded systems, enabling advanced process
 - Faster communication through on-chip interconnects.  
 - Optimized cost and improved performance.
 
----
 ![System on Chip Overview](images/w2.png)
 
+---
 
 ## ⚙️ 2. Components of an SoC
 
@@ -83,6 +83,7 @@ They serve as the backbone of modern embedded systems, enabling advanced process
 | **FPGA-Based SoC** | Combines CPU with programmable logic for flexible design. | Xilinx Zynq |
 | **Educational/Research SoC** | Simplified architecture for training and experimentation. | **VSDBabySoC** |
 
+![Types of SoC Comparison](images/w4.png)
 ---
 
 ## 🧩 4. Introduction to VSDBabySoC
@@ -107,6 +108,7 @@ It emphasizes:
 - Visualizing **clock synchronization** via PLLs.  
 - Exploring **digital-to-analog conversion** mechanisms.  
 
+![VSDBabySoC Architecture](images/w5.png)
 ---
 
 ## 🔬 5. Role of Functional Modelling
@@ -125,6 +127,7 @@ Functional models act as the **conceptual blueprint** of an SoC.
 They simplify complex designs, help simulate system responses, and ensure  
 that when RTL design begins, every module behaves correctly at the system level.
 
+![Functional Modelling Flow](images/w6.png)
 ---
 
 ## 💡 6. Applications of SoC Design
@@ -138,11 +141,14 @@ that when RTL design begins, every module behaves correctly at the system level.
 | **Industrial Automation** | Motor controllers, PLCs |
 | **Educational Tools** | Open-source learning platforms like VSDBabySoC |
 
+![Applications of SoC Design](images/w7.png)
+
 ### 🔸 BabySoC Applications
 - Demonstrating RISC-V processor-based system behavior.  
 - Studying DAC-based analog output generation.  
 - Exploring open-source chip design using Sky130.  
 - Building foundation for custom SoC design and verification.
+
 
 ---
 
@@ -157,6 +163,7 @@ After completing this theoretical module, learners will be able to:
 ✅ Relate theoretical SoC concepts to **real-world applications** and open-source platforms.  
 ✅ Build conceptual readiness for **Week 3 – RTL Modelling and Simulation**.
 
+![Learning Outcomes - SoC Design](images/w8.png)
 ---
 
 ## 📚 Reference Materials
