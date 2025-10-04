@@ -24,6 +24,22 @@ before moving to RTL and physical design stages.
 
 ---
 
+## 🗂️ Table of Contents
+
+| S.No | Section Title | Link |
+|:----:|----------------|------|
+| 1 | 🎯 Objective | [Go to Section](#-objective) |
+| 2 | 🧩 Understanding System-on-Chip (SoC) | [Go to Section](#-1-understanding-system-on-chip-soc) |
+| 3 | ⚙️ Components of an SoC | [Go to Section](#-2-components-of-an-soc) |
+| 4 | 🧠 Types of SoCs | [Go to Section](#-3-types-of-socs) |
+| 5 | 🧩 Introduction to VSDBabySoC | [Go to Section](#-4-introduction-to-vsdbabysoc) |
+| 6 | 🔬 Role of Functional Modelling | [Go to Section](#-5-role-of-functional-modelling) |
+| 7 | 💡 Applications of SoC Design | [Go to Section](#-6-applications-of-soc-design) |
+| 8 | 🎓 Learning Outcomes | [Go to Section](#-7-learning-outcomes) |
+| 9 | 📚 Reference Materials | [Go to Section](#-reference-materials) |
+
+---
+
 ## 🧩 1. Understanding System-on-Chip (SoC)
 
 A **System-on-Chip (SoC)** is a microchip that combines multiple essential components  
