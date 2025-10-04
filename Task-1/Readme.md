@@ -16,14 +16,6 @@
 
 ---
 
-## 🎯 Objective
-
-To develop a strong conceptual foundation in **System-on-Chip (SoC)** design  
-and understand how **functional modelling** plays a key role in validating SoC behavior  
-before moving to RTL and physical design stages.
-
----
-
 ## 🗂️ Table of Contents
 
 | S.No | Section Title | Link |
@@ -37,6 +29,14 @@ before moving to RTL and physical design stages.
 | 7 | 💡 Applications of SoC Design | [Go to Section](#-6-applications-of-soc-design) |
 | 8 | 🎓 Learning Outcomes | [Go to Section](#-7-learning-outcomes) |
 | 9 | 📚 Reference Materials | [Go to Section](#-reference-materials) |
+
+---
+
+## 🎯 Objective
+
+To develop a strong conceptual foundation in **System-on-Chip (SoC)** design  
+and understand how **functional modelling** plays a key role in validating SoC behavior  
+before moving to RTL and physical design stages.
 
 ---
 
