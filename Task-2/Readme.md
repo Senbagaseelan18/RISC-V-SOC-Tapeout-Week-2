@@ -33,6 +33,11 @@
 ---
 
 ## 🎯 Objective
+<div align="center">
+  <img src="images/vsd_banner.png" alt="VSDBabySoC Week 2 Banner" width="1000"/>
+  <br/>
+  <em>Week 2 — Practical Implementation & Functional Simulation of VSDBabySoC</em>
+</div>
 
 To functionally model and verify the **BabySoC** by simulating its key modules —  
 the **RISC-V CPU**, **PLL**, and **DAC** — using **Icarus Verilog**, **GTKWave**, and **Yosys**.  
