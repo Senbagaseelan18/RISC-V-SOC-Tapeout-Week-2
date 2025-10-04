@@ -23,7 +23,7 @@ This step confirms correct logic operation before physical design.
 ---
 
 ## 🗂️ Project Structure
-
+```bash
 VSDBabySoC/
 ├── src/
 │ ├── include/ # Header and definition files (*.vh)
@@ -35,7 +35,7 @@ VSDBabySoC/
 │ │ └── testbench.v # Testbench
 ├── images/ # Waveform screenshots / visuals
 └── output/ # Simulation outputs
-
+```
 
 ---
 
