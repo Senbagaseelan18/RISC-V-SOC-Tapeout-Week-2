@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/RISC--V-CPU_Core-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Tools-IcarusVerilog|GTKWave-blue?style=for-the-badge" />
 
-  <img src="images/vsdbabysoc_banner.png" alt="VSDBabySoC Banner" width="1000"/>
+  <img src="images/sbanner.png" alt="VSDBabySoC Banner" width="1000"/>
   <br/>
   <em>Bridging the gap between SoC fundamentals and functional simulation</em>
 </div>
@@ -40,7 +40,10 @@ This repository is divided into two main folders:
 |---------|------|
 | Task-1 Overview | [Task-1 — Fundamentals & Functional Modelling](#task-1-overview) |
 | Task-2 Overview | [Task-2 — Practical Implementation & Simulation](#task-2-overview) |
+| Learning Outcomes | [Learning Outcomes](#learning-outcomes) |
+| Conclusion | [Conclusion](#conclusion) |
 | References | [References](#references) |
+
 
 ---
 
@@ -95,7 +98,34 @@ Task-2/
 > Navigate to the folder: [Task-2](./Task-2)
 
 ---
+## Learning Outcomes
 
+After completing Week 2 — Task-1 & Task-2 modules, learners will be able to:
+
+✅ Explain what a **System-on-Chip (SoC)** is and identify its key components.  
+✅ Describe the **types of SoCs** and their applications in real-world systems.  
+✅ Understand the **structure and working of VSDBabySoC**, including CPU, PLL, DAC, and memory modules.  
+✅ Perform **functional modelling** to verify module behavior before RTL design.  
+✅ Set up the **simulation environment** using Icarus Verilog, GTKWave, and SandPiper-SaaS.  
+✅ Conduct **pre-synthesis functional verification**, analyzing CPU–DAC linkage and clock synchronization.  
+✅ Interpret **waveforms** to confirm proper digital-to-analog conversion and timing stability.  
+✅ Relate theoretical SoC concepts to **practical simulation outcomes**.  
+✅ Build conceptual readiness for **Week 3 – RTL Modelling and Hardware Simulation**.
+
+---
+
+## Conclusion
+
+The Week 2 modules of **VSDBabySoC** successfully integrate **theoretical foundations** (Task-1) with **practical functional simulation** (Task-2).  
+
+- Task-1 provided a solid conceptual understanding of **SoC fundamentals, component architecture, types of SoCs, and the role of functional modelling**.  
+- Task-2 demonstrated **hands-on functional simulation**, verifying CPU, PLL, and DAC interactions through Icarus Verilog and GTKWave.  
+- Learners were able to **connect theory with practice**, analyzing digital-to-analog data flow, clock synchronization, and overall SoC behavior.  
+- The combined learning ensures readiness for **RTL design, synthesis, and more advanced SoC development tasks**.  
+
+✅ By the end of Week 2, learners can confidently simulate a basic SoC, verify functional correctness, and understand the critical role of functional modelling in hardware design.
+
+---
 ## References
 
 - 📘 [VSDBabySoC GitHub Repository – Manili](https://github.com/manili/VSDBabySoC)  
