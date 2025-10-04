@@ -48,6 +48,15 @@ cd ~/VLSI
 git clone https://github.com/manili/VSDBabySoC.git
 cd VSDBabySoC/
 ```
+
+<div align="center">
+  <img src="images/git.png" alt="Git Clone Process" width="1000"/>
+  <br/>
+  <em>Figure: Repository cloned successfully using <b>git clone</b></em>
+</div>
+
+---
+
 ### 📁 Repository Contents
 
 Contents after cloning the repository:
@@ -80,6 +89,14 @@ sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v \
   --bestsv --noline -p verilog --outdir ./src/module/
 ```
 
+<div align="center">
+  <img src="images/py.png" alt="Python Virtual Environment and SandPiper Installation" width="700"/>
+  <br/>
+  <em>Figure: Python virtual environment setup and SandPiper-SaaS installation</em>
+</div>
+
+---
+
 ✅ After successful conversion, `rvmyth.v` will be generated inside the `src/module/` directory.  
 This file will now be used in the simulation process along with the other Verilog modules.
 
@@ -98,22 +115,31 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out \
 cd output/pre_synth_sim
 ./pre_synth_sim.out
 ```
+<div align="center">
+  <img src="images/isr.jpg" alt="Icarus Verilog Simulation Run" width="1000"/>
+  <br/>
+  <em>Figure: Verilog compilation and simulation executed successfully using <b>Icarus Verilog</b></em>
+</div>
+
+---
+
 
 ## 📊 View in GTKWave
 ```bash
 gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 ```
+<div align="center">
+  <img src="images/gtksoc" alt="BabySoC GTKWave Simulation" width="1000"/>
+  <br/>
+  <em>Figure: BabySoC functional waveform showing CPU–DAC integration and analog output transition</em>
+</div>
+
 ## 📊 Waveform Analysis – BabySoC Simulation (pre_synth_sim.vcd)
 
 The following waveform was captured from **GTKWave** during the BabySoC functional simulation.  
 It shows the **interaction between the RISC-V core, PLL, and DAC** modules.
 
 ---
-<div align="center">
-  <img src="images/gtksoc" alt="BabySoC GTKWave Simulation" width="1000"/>
-  <br/>
-  <em>Figure: BabySoC functional waveform showing CPU–DAC integration and analog output transition</em>
-</div>
 
 ### 🧩 Observed Signals
 
@@ -186,8 +212,40 @@ The system exhibits stable timing, proper data propagation, and functional synch
 
 ---
 
+## 🧩 Conclusion
+
+The **VSDBabySoC functional simulation** successfully demonstrates the seamless integration of the **RISC-V core (RVMYTH)**, **PLL**, and **DAC** modules.  
+Through waveform verification in **GTKWave**, we validated the SoC’s internal data flow — from instruction execution within the CPU to the final DAC output conversion.  
+This confirms that the BabySoC design performs correctly at the **pre-synthesis functional level**, ensuring reliability before moving toward synthesis and physical design.
+
+### ✅ Key Takeaways
+- Verified CPU–DAC data transfer using realistic timing behavior.  
+- Observed stable **clock generation** and synchronization via PLL.  
+- Confirmed accurate **digital-to-analog conversion** and waveform shaping.  
+- Established a repeatable **functional simulation flow** using open-source tools:  
+  `Icarus Verilog`, `GTKWave`, and `SandPiper-SaaS`.  
+- Gained hands-on understanding of how an SoC’s digital and analog blocks interact before layout design.
+
+---
+
+## 📚 References
+
+- [🔗 VSDBabySoC GitHub Repository – Manili](https://github.com/manili/VSDBabySoC)  
+- [📘 RISC-V Core Design – Shivani Shah (VSD)](https://github.com/shivanishah269/risc-v-core)  
+- [🧠 SoC Fundamentals – Hemanth Kumar (VSD)](https://github.com/hemanth-kumar-vsd)  
+- [🛠️ VSD SoC Journey – Spatha (Day 5)](https://github.com/spathadev/vsdsoc-day5)  
+- [⚙️ SkyWater 130nm PDK – Open Source PDK](https://github.com/google/skywater-pdk)  
+
+---
+
 <div align="center">
-  <img src="14210b68-3fe4-4dc8-8293-57a8444f7585.jpg" alt="BabySoC GTKWave Simulation" width="700"/>
-  <br/>
-  <em>Figure: BabySoC functional waveform showing CPU–DAC integration and analog output transition</em>
+  <img src="https://img.shields.io/badge/Simulation-Completed-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tools-IcarusVerilog%20|%20GTKWave%20|%20SandPiper-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Technology-Sky130-lightgrey?style=for-the-badge" />
+  <br/><br/>
+  <em>“Bridging Digital and Analog Worlds through Functional Verification”</em>
 </div>
+
+---
+
+
