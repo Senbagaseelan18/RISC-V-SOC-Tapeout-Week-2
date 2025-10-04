@@ -38,6 +38,8 @@ To develop a strong conceptual foundation in **System-on-Chip (SoC)** design
 and understand how **functional modelling** plays a key role in validating SoC behavior  
 before moving to RTL and physical design stages.
 
+![VSDBabySoC Fundamentals Banner](images/w1.png)
+
 ---
 
 ## 🧩 1. Understanding System-on-Chip (SoC)
@@ -55,6 +57,8 @@ They serve as the backbone of modern embedded systems, enabling advanced process
 - Optimized cost and improved performance.
 
 ---
+![System on Chip Overview](images/w2.png)
+
 
 ## ⚙️ 2. Components of an SoC
 
@@ -67,6 +71,7 @@ They serve as the backbone of modern embedded systems, enabling advanced process
 | **PLL (Phase-Locked Loop)** | Provides clock synchronization and timing accuracy. |
 | **Power Management** | Ensures stable operation through regulated voltage and power distribution. |
 
+![Components of SoC](images/w3.png)
 ---
 
 ## 🧠 3. Types of SoCs
