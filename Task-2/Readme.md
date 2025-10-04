@@ -90,7 +90,7 @@ sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v \
 ```
 
 <div align="center">
-  <img src="images/py.png" alt="Python Virtual Environment and SandPiper Installation" width="700"/>
+  <img src="images/py.png" alt="Python Virtual Environment and SandPiper Installation" width="1000"/>
   <br/>
   <em>Figure: Python virtual environment setup and SandPiper-SaaS installation</em>
 </div>
@@ -116,7 +116,7 @@ cd output/pre_synth_sim
 ./pre_synth_sim.out
 ```
 <div align="center">
-  <img src="images/isr.jpg" alt="Icarus Verilog Simulation Run" width="1000"/>
+  <img src="images/isr.png" alt="Icarus Verilog Simulation Run" width="1000"/>
   <br/>
   <em>Figure: Verilog compilation and simulation executed successfully using <b>Icarus Verilog</b></em>
 </div>
@@ -129,7 +129,7 @@ cd output/pre_synth_sim
 gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 ```
 <div align="center">
-  <img src="images/gtksoc" alt="BabySoC GTKWave Simulation" width="1000"/>
+  <img src="images/gtksoc.png" alt="BabySoC GTKWave Simulation" width="1000"/>
   <br/>
   <em>Figure: BabySoC functional waveform showing CPU–DAC integration and analog output transition</em>
 </div>
