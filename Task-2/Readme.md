@@ -13,6 +13,24 @@
 </div>
 
 ---
+## 📖 Table of Contents
+
+| Section | Link |
+|---------|------|
+| Objective | [🎯 Objective](#-objective) |
+| Project Structure | [🗂️ Project Structure](#-project-structure) |
+| Setup | [🧰 Setup](#-setup) |
+| TL-Verilog → Verilog Conversion | [🔧 TL-Verilog → Verilog Conversion](#-tl-verilog-→-verilog-conversion) |
+| Simulation Flow | [🧪 Simulation Flow](#-simulation-flow) |
+| View in GTKWave | [📊 View in GTKWave](#-view-in-gtkwave) |
+| Waveform Analysis | [📊 Waveform Analysis – BabySoC Simulation (pre_synth_sim.vcd)](#-waveform-analysis-–-babysoc-simulation-pre_synth_simvcd) |
+| Key Observations | [📈 Key Observations](#-key-observations) |
+| Summary | [🧾 Summary](#-summary) |
+| Key Learnings | [🎯 Key Learnings](#-key-learnings) |
+| Conclusion | [🧩 Conclusion](#-conclusion) |
+| References | [📚 References](#-references) |
+
+---
 
 ## 🎯 Objective
 
