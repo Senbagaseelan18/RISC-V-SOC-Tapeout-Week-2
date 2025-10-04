@@ -15,11 +15,11 @@
   <img src="https://img.shields.io/badge/SoC-BabySoC-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RISC--V-CPU_Core-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Tools-IcarusVerilog|GTKWave-blue?style=for-the-badge" />
-
+</div>
   <img src="images/sbanner.png" alt="VSDBabySoC Banner" width="1000"/>
   <br/>
   <em>Bridging the gap between SoC fundamentals and functional simulation</em>
-</div>
+
 
 ---
 
